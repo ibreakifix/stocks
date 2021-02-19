@@ -51,6 +51,7 @@ You'll also notice that the response from the API gateway is formatted as consis
 - Everything
 2. Back End:
 - Screeners / algorithms
+- Add a request limiting middleware to Guzzle so we can obey QPS or QPM limits for certain APIs (reddit)
 - Add more APIs to proxy
 - Create a cron worker endpoint to enable data collection operations from finra, reddit, etc...
 - Social sentiment analysis
