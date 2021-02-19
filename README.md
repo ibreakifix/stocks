@@ -4,9 +4,10 @@ Stock analytics app (WIP)
 Currently, the API gateway is the only functional code. 
 
 # Using the API Gateway
-To use the API gateway, first configure your API. Some APIs are already provided in the /includes/functions/api/ folder. 
-If required, add your credentials to /includes/functions/api/{api name}/api.config.php 
-Nasdaq API does not require credentials, since it is a public endpoint. But you may wish to add custom options to your Guzzle requests, such as a proxy, which can be done in the API config file.
+To use the API gateway, first configure your API. Some APIs are already provided in the `/includes/functions/apis/` folder. 
+If required, add your credentials to `/includes/functions/apis/{api name}/api.config.php`
+
+Nasdaq API does not require credentials, since it is a public endpoint, so you can use that to test your installation. But you may wish to add custom options to your Guzzle requests, such as a proxy, which can be done in the API config file.
 
 **Example Requests**
 
