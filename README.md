@@ -1,2 +1,2 @@
-# stocks
-stocks test app for analytics
+# stocks-testing
+Stock analytics app (WIP)
